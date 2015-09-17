@@ -124,6 +124,27 @@ TEMPLATE_CONTEXT_PROCESSORS = global_settings.TEMPLATE_CONTEXT_PROCESSORS + (
     'django.core.context_processors.request',
 )
 
+if 'OPENSHIFT_POSTGRESQL_DB_URL' in os.environ:
+    url = urlparse.urlparse(os.environ.get('OPENSHIFT_POSTGRESQL_DB_URL'))
+
+    DATABASES = {
+        'default': {
+            'ENGINE' : 'django.db.backends.postgresql_psycopg2',
+            'NAME': os.environ['OPENSHIFT_APP_NAME'],
+            'USER': url.username,
+            'PASSWORD': url.password,
+            'HOST': url.hostname,
+            'PORT': url.port,
+        }
+    }
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE' : 'django.db.backends.sqlite3',
+            'NAME': os.path.join(), #fixme !
+        }
+    }
+
 ROOT_URLCONF = 'hlccswimteam.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
