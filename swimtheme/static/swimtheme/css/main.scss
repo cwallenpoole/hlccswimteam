@@ -1,0 +1,194 @@
+$navbar-height: 51px;
+$padding-vertical: 15px;
+$wagtail-color: rgb(0, 127, 127);
+$html-background-color: whitesmoke;
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700);
+
+
+.main.container form textarea {
+  display:block;
+  margin-bottom:5px;
+}
+
+/* 
+ * ============================================= 
+ *     Bootstrap override
+ * ============================================= 
+ */
+.jumbotron {
+ text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 20px 0;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+}
+
+.navbar-inverse {
+  background-color: #1120ad;
+  border-color: #000ebd;
+}
+.navbar-inverse .navbar-brand {
+  color: #edeff0;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+  color: #c2bbff;
+}
+.navbar-inverse .navbar-text {
+  color: #edeff0;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #edeff0;
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #c2bbff;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  color: #c2bbff;
+  background-color: #000ebd;
+}
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+  color: #c2bbff;
+  background-color: #000ebd;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #000ebd;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color: #000ebd;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #edeff0;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #edeff0;
+}
+.navbar-inverse .navbar-link {
+  color: #edeff0;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #c2bbff;
+}
+
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #edeff0;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c2bbff;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c2bbff;
+    background-color: #000ebd;
+  }
+}
+
+/* 
+ * ============================================= 
+ *     end Bootstrap override
+ * ============================================= 
+ */
+html {
+    background-color: $html-background-color;
+}
+
+/* fonts */
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+/* body image styles - classes supplied by rich text editor */
+.body-content {
+    width: 100%;
+    overflow: hidden;
+    clear: both;
+    margin-bottom: 1em;
+    img {
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    img.full-width {
+        width: 100%;
+    }
+
+    img.left {
+        width: 45%;
+        margin-right: 5%;
+        float: left;
+    }
+
+    img.right {
+        width: 45%;
+        margin-left: 5%;
+        float: right;
+    }
+
+    h1, h2, h3, h4, h5 {
+        clear: both;
+    }
+}
+
+/* List styling - tweaks to include images */
+
+a.list-group-item {
+    clear: both;
+    width: 100%;
+    overflow: hidden;
+    .list-group-item-text {
+        margin-top: 1%;
+        img {
+            float: left;
+            margin-right: 2%;
+            margin-bottom: 1%;
+        }
+    }
+}
+
+/* Style pager */
+.col-sm-4.pages {
+    text-align: center;
+}
+
+.col-sm-4.next {
+    text-align: right;
+}
+
+.main {
+    padding-top: $navbar-height + $padding-vertical;
+    min-height: 700px;
+}
+
+.carousel {
+    margin-bottom: $padding-vertical;
+    .carousel-caption {
+        background-color: transparentize($wagtail-color, 0.4);
+        padding-top: 0;
+        .btn {
+            margin-bottom: 10px;
+        }
+    }
+}
+
+p {
+    text-align: justify;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.advert-list {
+    margin-top: $padding-vertical;
+    margin-bottom: 0;
+    padding: $padding-vertical 0;
+    background-color: $html-background-color;
+    border-top: 1px solid darken($html-background-color, 25%);
+}

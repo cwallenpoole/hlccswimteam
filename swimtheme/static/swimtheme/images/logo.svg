@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xml:space="preserve"
+   width="32"
+   height="32"
+   shape-rendering="geometricPrecision"
+   text-rendering="geometricPrecision"
+   image-rendering="optimizeQuality"
+   fill-rule="evenodd"
+   clip-rule="evenodd"
+   viewBox="0 0 48 48"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.44"
+   sodipodi:docname="Hurricane warning icon.svg"
+   sodipodi:docbase="C:\Documents and Settings\Virax\Bureau"
+   version="1.0"><metadata
+   id="metadata19"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><cc:license
+         rdf:resource="http://web.resource.org/cc/PublicDomain" /><dc:title>Hurricane watch icon</dc:title><dc:date>August 27th 2006</dc:date><dc:creator><cc:Agent><dc:title>The_Shadow_Knows</dc:title></cc:Agent></dc:creator></cc:Work><cc:License
+       rdf:about="http://web.resource.org/cc/PublicDomain"><cc:permits
+         rdf:resource="http://web.resource.org/cc/Reproduction" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/Distribution" /><cc:permits
+         rdf:resource="http://web.resource.org/cc/DerivativeWorks" /></cc:License></rdf:RDF></metadata><sodipodi:namedview
+   inkscape:window-height="785"
+   inkscape:window-width="1152"
+   inkscape:pageshadow="2"
+   inkscape:pageopacity="0.0"
+   guidetolerance="10.0"
+   gridtolerance="10.0"
+   objecttolerance="10.0"
+   borderopacity="1.0"
+   bordercolor="#666666"
+   pagecolor="#ffffff"
+   id="base"
+   width="32px"
+   height="32px"
+   borderlayer="false"
+   showgrid="false"
+   inkscape:zoom="12.270846"
+   inkscape:cx="24.000018"
+   inkscape:cy="10.96094"
+   inkscape:window-x="-4"
+   inkscape:window-y="-4"
+   inkscape:current-layer="svg2"
+   showborder="false"
+   inkscape:showpageshadow="false"
+   inkscape:object-paths="false"
+   inkscape:guide-bbox="false" />
+ <defs
+   id="defs4"><linearGradient
+     id="id0"
+     gradientUnits="userSpaceOnUse"
+     x1="2.9409399"
+     y1="2.9409399"
+     x2="45.059101"
+     y2="45.059101">
+     <stop
+   offset="0"
+   stop-color="#2427DA"
+   id="stop7"
+   style="stop-color:#2a27E4;stop-opacity:1;" />
+     <stop
+   offset="1"
+   stop-color="#2C287A"
+   id="stop9" />
+    </linearGradient><linearGradient
+     inkscape:collect="always"
+     xlink:href="#id0"
+     id="linearGradient1911"
+     gradientUnits="userSpaceOnUse"
+     x1="2.9409399"
+     y1="2.9409399"
+     x2="45.059101"
+     y2="45.059101"
+     gradientTransform="matrix(1.089504,0,0,1.089502,-2.148078,-2.148024)" /></defs>
+ <path
+   id="_162240840"
+   d="M 47.243387,24.000024 C 47.243387,36.837299 36.836478,47.243351 24.000018,47.243351 C 11.163591,47.243351 0.75664861,36.837321 0.75664861,24.000024 C 0.75664861,11.162749 11.163558,0.75669728 24.000018,0.75669728 C 36.836445,0.75669728 47.243387,11.162727 47.243387,24.000024 z "
+   style="fill:#AAAAFF;fill-rule:nonzero" /><path
+   id="_162240584"
+   d="M 47.243387,24.000024 C 47.243387,36.837299 36.836478,47.243351 24.000018,47.243351 C 11.163591,47.243351 0.75664861,36.837321 0.75664861,24.000024 C 0.75664861,11.162749 11.163558,0.75669728 24.000018,0.75669728 C 36.836445,0.75669728 47.243387,11.162727 47.243387,24.000024 z "
+   style="fill:none;fill-rule:nonzero;stroke:#2c287a;stroke-width:1.51329792;stroke-linecap:round;stroke-linejoin:round" /><path
+   id="_162243304"
+   d="M 4.0895503,24.000024 C 4.0895503,13.021766 13.021773,4.0895929 24.000018,4.0895929 C 34.978296,4.0895929 43.910486,13.021799 43.910486,24.000024 C 43.910486,34.978282 34.978263,43.910455 24.000018,43.910455 C 13.02174,43.910455 4.0895503,34.978249 4.0895503,24.000024 L 4.0895503,24.000024 z M 1.0560988,23.984582 L 1.0560988,24.015466 C 1.0646775,36.659681 11.354058,46.943926 24.000072,46.943926 C 36.651175,46.943926 46.944046,36.651139 46.944046,23.999995 C 46.944046,11.348915 36.65124,1.0560633 24.000072,1.0560633 C 11.354091,1.0560633 1.0647059,11.340276 1.0560988,23.984524 L 1.0560988,23.984582 z "
+   style="fill:url(#linearGradient1911);fill-rule:nonzero;stroke:none;stroke-opacity:1" /><path
+   id="_162220760"
+   d="M 23.533383,5.082151 L 25.026091,6.4822046 C 23.439871,8.0504011 22.092155,9.717252 20.980338,11.479325 C 19.869381,13.243981 18.924869,15.205084 18.146767,17.362636 C 18.940303,16.600842 19.818774,16.037213 20.782168,15.672622 C 21.746421,15.307168 22.84193,15.12444 24.06955,15.12444 C 26.806177,15.12444 28.954298,16.002046 30.516494,17.760697 C 32.07869,19.520199 32.860213,21.954854 32.860213,25.064653 C 32.860213,28.09982 32.140454,31.144412 30.703507,34.201031 C 29.2657,37.259361 27.194792,40.164126 24.489903,42.917908 L 23.020358,41.539307 C 24.622016,39.905054 25.997188,38.16099 27.147606,36.310558 C 28.298024,34.457544 29.215092,32.505025 29.899671,30.45041 C 29.028926,31.150437 28.118714,31.666882 27.170769,32.001447 C 26.223673,32.336018 25.18907,32.503304 24.069539,32.503304 C 21.318324,32.503304 19.142748,31.611971 17.54109,29.833599 C 15.940292,28.052645 15.139888,25.631728 15.139888,22.569965 C 15.139888,19.725254 15.86651,16.78788 17.319757,13.756156 C 18.773003,10.726142 20.844771,7.8350937 23.533362,5.0821728 L 23.533383,5.082151 z "
+   style="fill:#0000DD;fill-opacity:1;fill-rule:nonzero" />
+</svg>

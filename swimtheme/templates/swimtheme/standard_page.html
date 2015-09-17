@@ -1,0 +1,11 @@
+{% extends "swimtheme/base.html" %}
+
+{% block content %}
+    {% include "swimtheme/includes/intro.html" with intro=self.intro only %}
+
+    {% include "swimtheme/includes/carousel.html" with carousel_items=self.carousel_items.all only %}
+
+    {% include "swimtheme/includes/body.html" with body=self.body only %}
+
+    {% include "swimtheme/includes/related_links.html" with related_links=self.related_links.all only %}
+{% endblock %}

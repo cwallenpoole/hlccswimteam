@@ -1,0 +1,14 @@
+{% load wagtailcore_tags %}
+
+{% if callouts %}
+  <ul class="comment-list list-inline text-center">
+  {% for callout in callouts %}
+      <li>
+          <a href="{% if callout.url %}{{ callout.url }}{% else %}{% pageurl callout.page %}{% endif %}">
+          {{ callout.text }}
+        </a>
+      </li>
+      {% if not forloop.last %}<li><strong>·</strong></li>{% endif %}
+  {% endfor %}
+  </ul>
+{% endif %}

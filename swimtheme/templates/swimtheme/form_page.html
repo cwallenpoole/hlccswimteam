@@ -1,0 +1,12 @@
+{% extends "swimtheme/base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+    {% include "swimtheme/includes/intro.html" with intro=self.intro only %}
+
+    <form action="{% pageurl self %}" method="POST">
+        {% csrf_token %}
+        {{ form.as_ul }}
+        <input type="submit">
+    </form>
+{% endblock %}

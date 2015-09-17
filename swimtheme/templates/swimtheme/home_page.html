@@ -1,0 +1,23 @@
+{% extends "swimtheme/base.html" %}
+{% load swimtheme_tags %}
+{% load staticfiles %}
+
+
+{% block heading %}
+    <div class="jumbotron">
+      <h1>Highland Lakes Hurricanes</h1>
+    </div>
+{% endblock %}
+
+
+{% block content %}
+    {% include "swimtheme/includes/carousel.html" with carousel_items=self.carousel_items.all only %}
+
+    {% include "swimtheme/includes/body.html" with body=self.body only %}
+
+    {% person_listing_homepage %}
+
+    {% blog_listing_homepage %}
+
+    {% event_listing_homepage %}
+{% endblock %}

@@ -1,0 +1,7 @@
+{% extends "swimtheme/base.html" %}
+{% load wagtailcore_tags %}
+
+{% block content %}
+  {{ self.thank_you_text|richtext }}
+  {{ form.as_p }}
+{% endblock %}
